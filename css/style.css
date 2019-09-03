@@ -1,0 +1,47 @@
+.nav-link{
+  color:black;
+}
+.link{
+  color:white;
+}
+
+.full-img{
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  text-align:center;
+  padding:1%;
+}
+.shadow{
+  padding: 10px;
+  box-shadow: 5px 1px 20px  #CEC8C8;
+}
+.padding{
+  padding-left:80px;
+  padding-right:80px;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-rounded {border-radius: 50px;}
+
+.rounded1{
+  border-radius: 20px;
+}
+.responsive-img {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+@media screen and (min-device-width: 0px) and (max-device-width: 768px) {
+.responsive-img {
+  padding-left: 0;
+  padding-right: 0;
+}
+}
