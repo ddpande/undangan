@@ -1,5 +1,13 @@
+body{
+  font-family: sans-serif;
+}
+h1{
+  font-weight: 550;
+  font-size: 2.8em;
+}
 .nav-link{
   color:black;
+
 }
 .link{
   color:white;
@@ -7,10 +15,19 @@
 
 .full-img{
   max-width: 100%;
-  height: auto;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.center-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.font-5{
+  font-size: 1.7em;
 }
 h1{
   text-align:center;
@@ -40,8 +57,21 @@ img.center {
   padding-right: 200px;
 }
 @media screen and (min-device-width: 0px) and (max-device-width: 768px) {
-.responsive-img {
-  padding-left: 0;
-  padding-right: 0;
-}
+  .responsive-img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .full-img{
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .font-5{
+    font-size: 1em;
+  }
+  h1{
+    font-size: 2em;
+  }
 }
